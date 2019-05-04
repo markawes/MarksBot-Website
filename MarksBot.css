@@ -1,0 +1,84 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: #2caecb;
+}
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+.theme-showcase>p>.btn {
+	margin: 5px 0;
+}
+.theme-showcase .navbar .container {
+	width: auto;
+}
+.mb {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+.mb td {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+.mb th {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+.mb .mb-usageBG {
+	background-color: #F3EEC1;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-generalCommands {
+	background-color: #34ff34;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-adminlCommands {
+	background-color: #FFBF00;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-ownerCommands {
+	background-color: #fe0000;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-disabled {
+	background-color: #ff0000;
+	border-color: inherit;
+	font-weight: bold;
+	text-align: left
+}
+.mb .mb-userRequested {
+	background-color: #2caecb;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-mbStaff {
+	background-color: #ff6ec7;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
