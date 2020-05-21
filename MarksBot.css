@@ -1,0 +1,226 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: #2caecb;
+}
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+.theme-showcase>p>.btn {
+	margin: 5px 0;
+}
+.theme-showcase .navbar .container {
+	width: auto;
+}
+.changeonfocus:focus{
+   background-image: url('https://cdn.mwserver.site/botImages/MarksBot/systemImages/MarksBotLogo128x128.png');
+}
+.navbar-brand>img {
+	display: block;
+	margin: -6px 8px 0 0;
+}
+.mb-fixed {
+	border-width:3px;
+	background-color:#cae8ca;
+	border-style:solid;
+	position:fixed;
+	padding:7px;
+	bottom:0;
+	right:0;
+	max-width:450px;
+	z-index:999
+}
+.mb {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+.mb td {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+.mb th {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: black;
+}
+.mb .mb-usageBG {
+	background-color: #F3EEC1;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-generalCommands {
+	background-color: #34ff34;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-adminlCommands {
+	background-color: #FFBF00;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-ownerCommands {
+	background-color: #fe0000;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-coinCommands {
+	background-color: #DED5D6;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-pasteCommands {
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(240,135,22,1) 51%, rgba(44,174,203,1) 97%);
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-apiCommands {
+	background-color: #BBB;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-disabled {
+	background-color: #ff0000;
+	border-color: inherit;
+	font-weight: bold;
+	text-align: left
+}
+.mb .mb-userRequested {
+	background-color: #2caecb;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+.mb .mb-mbStaff {
+	background-color: #ff6ec7;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.mbSpoiler, .mbSpoilerR{ 
+  color: black; 
+  background-color:black;
+}
+
+.mbSpoiler:hover{
+  color: white;
+  }
+
+.mbSpoilerR:hover { 
+  background-color:white; 
+  }
+  
+ .collapsible {
+  background-color: #2f3136;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #000;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  color: #DADADA;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #36393F;
+}
+
+.MarksBotStaff {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+div.rightLink
+{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  color: #2caecb
+  }
+ div.static {
+	position: fixed;
+    right: 130px;
+ border: 0px solid #2caecb;
+ 
+}
+.popup {
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.popup span {
+	position:fixed;
+	top:150px;
+	left:500px;
+	width:654px;
+	padding:15px;
+	left:-999em;
+	border:5px solid #2caecb;
+	border-radius:10px;
+        
+}
+.popup:hover {visibility:visible}
+.popup:hover span {left:350px;}
+* html .popup span {position:absolute;}
+
+.closebtn {
+	border-width:2px;
+	border-style:solid;
+  margin-left: 15px;
+  color: red;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 1s ease;
+
+}
+
+.closebtn:hover {
+  color: black;
+}
