@@ -11,7 +11,7 @@
 
 	<title>MarksBot Documentation - Permissions Explained</title>
 
-	<script src="../assets/js/time.js"></script>
+	<script src="./assets/js/time.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
 
@@ -23,7 +23,7 @@
 
   <!-- MarksBot CSS -->
 
-	<link rel="stylesheet" href="../MarksBot.css">
+	<link rel="stylesheet" href="./MarksBot.css">
 
 
 
